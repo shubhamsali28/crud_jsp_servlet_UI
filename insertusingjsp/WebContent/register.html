@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+div.form
+{
+    display: block;
+    text-align: center;
+    padding: 100px 400px 50px;
+}
+
+form
+{
+    display: inline-block;
+    margin: auto;
+    
+}
+
+label
+{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.my
+{
+  box-sizing: border-box;
+  border: 4px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+
+
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="form">
+<div class="my">
+<form method="post" action="register.jsp">
+<h2>Insert a new Employee</h2>
+<br>
+<div class="form-group">
+<label for="NAME">Name: </label>
+<input id="NAME" type="text" name="name" placeholder="Jim" class="form-control" />
+</div>
+
+<div class="form-group">
+<label for="AGE">Age: </label>
+<input id="AGE" type="text" name="age" placeholder="50" class="form-control"/>
+</div>
+
+<div class="form-group">
+<label for="EMAIL">Email: </label>
+<input id="EMAIL" type="text" name="email" placeholder="jim@gmail.com" class="form-control"/>
+</div>
+
+<button type="submit" class="btn btn-primary">Insert</button>
+
+
+</form>
+</div>
+</div>
+
+
+</body>
+</html>
